@@ -1,7 +1,7 @@
 require "pp"
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
-require 'pry'
+require 'byebug'
 # Call the method directors_database to retrieve the NDS
 
 directors_database
@@ -13,8 +13,8 @@ end
 
 def print_first_directors_movie_titles
   index = 0 
-  binding.pry
+  byebug
   # while index < directors_database.length do
-   #  puts 
+   #  put
    #nd
 end
